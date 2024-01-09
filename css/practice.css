@@ -1,0 +1,55 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    /* color:white; */
+}
+
+#nav
+{
+    background-color:black;
+    height:60px;
+    color:white;
+
+}
+
+button{
+    background-color:orangered;
+    color:white;
+}
+
+a
+{
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+}
+
+#logo
+{
+    color:rgb(247, 142, 5)
+}
+
+#leftcorner
+{
+    background-color: rgb(0, 132, 255);
+    color:black;
+    width:300px;
+    height:100%;
+    /* margin-left:-100% */
+}
+
+#rightcorner
+{
+/* {   display:inline; */
+    margin-top:10px;
+    width:300px;
+    height:100%;
+    background-color:yellow;
+    color:black;
+}
+
+#leftcorner, #rightcorner
+{
+    position:absolute;
+}

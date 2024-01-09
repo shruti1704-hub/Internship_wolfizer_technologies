@@ -1,0 +1,61 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+
+body
+{
+    background-color: lightblue;
+}
+
+#btn
+{
+    margin-left:25%;
+    align-items: center;
+    margin-top: 50px;
+    padding:5px;
+    font-size: 20px;
+}
+#btnUpdate,#btnRemove
+{   
+    
+    margin-left:10%;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    padding:5px;
+}
+
+/* #container
+{
+    white-space: nowrap;    it prevents from new line for next text
+} */
+
+#inputitem
+{
+/* {   margin-right:10px; */
+    margin-left:42%;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 22px;
+    text-align: center;
+    
+}
+
+ul li
+{
+
+    background-color:rgb(222, 211, 211);
+    color:black;
+    text-align: center;
+    list-style:none;
+    margin-top:10px;
+    margin-left:20%;
+    margin-right: 20%;
+    border-width: 15cm;
+    padding:10px;
+    border:1px solid #000;
+    border-radius: 10px;
+}

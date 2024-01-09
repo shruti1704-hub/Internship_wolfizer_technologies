@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>project</title>
+
+<style>
+
+		body {
+			margin:0;
+			padding:0;
+			line-height: 1.5em;
+		}
+		
+		#header {
+			background: black;
+			font-family: Arial; 
+			height: 100px;
+		}
+		
+		#contentwrapper {
+			float: left;
+			width: 100%;
+		}
+		
+		#contentcolumn {
+			margin: 0 230px 0 230px;
+		}
+		
+		#leftcolumn {
+			float: left;
+			width: 230px;
+			margin-left: -100%; 
+			background: #24fff4;
+		}
+		
+		#rightcolumn {
+			float: left;
+			width: 230px;
+			margin-left: -230px;
+			background: #c8ff00;
+		}
+		
+		.innertext {
+			margin: 20px;
+			font-family: Arial; 
+			color: #5E5E5E;
+		}
+		
+		#footer {
+			clear: left; /* Cannot float on Left */
+			width: 100%;
+			background: black;
+			color: #FFF;
+			font-family: Arial;
+			text-align: center;
+			padding: 4px;
+		}
+		
+		/* ##### Navigation Bar ##### */
+		
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #000;
+		}
+		
+		li {
+			float: left;
+			border-right:1px solid #bbb;
+		}
+		
+		li:last-child {
+			border-right: none;
+		}
+		
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		li a:hover:not(.active) {
+			background-color: 	#808080;
+		}
+		
+		.active {
+			background-color: #0099ff;
+		}	
+		
+		/* ###### Responsive layout CSS ###### */
+		
+		@media (max-width: 840px){ /* Drop Right Column Down */
+		
+		#leftcolumn {
+				margin-left: -100%;
+			}
+			
+		#rightcolumn {
+				float: none;
+				width: 100%;
+				margin-left: 0;
+				clear: both;
+			}
+			
+		#contentcolumn {
+				margin-right: 0; /*Set margin to LeftColumnWidth*/
+			}
+		
+		}
+		
+		
+		
+
+</style>
+
+</head>
+<body>
+
+<div id="container">
+
+	<div id="header">
+	
+		<ul style="display: inline;">
+		  <li><a class="active" href="#home">Home</a></li>
+		  <li><a href="#news">About</a></li>
+		  <li><a href="#contact">News</a></li>
+		  <li><a href="#about">Contact</a></li>		  
+		</ul>
+	
+	</div>
+	
+	<div id="contentwrapper">
+	
+		<div id="contentcolumn">
+		
+			<div class="innertext">
+			
+				<b>Welcome!</b> <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?
+			</div>	
+		</div>
+	</div>
+	
+	<div id="leftcolumn">
+		<div class="innertext">
+			<b>Left Column: <em>230px</em></b><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?
+		</div>
+	</div>
+	
+	<div id="rightcolumn">
+		<div class="innertext">
+			<b>Right Column: <em>230px</em></b><br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius numquam illum esse corporis rerum molestias ipsa, totam inventore a placeat atque reprehenderit dolores sed tempore mollitia, culpa aut, voluptas dolore?
+		</div>
+	</div>
+	
+	<div id="footer">Footer</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(64, 54, 54);
+    /* display: flex; */
+}
+
+.btn
+{
+    width:10%;
+    height: 5%;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    background-color: rgb(51, 168, 168);
+}
+
+.input
+{
+    width: 30%;
+    height: 5%;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 15px;
+   
+}
+
+.list
+{   display: flex;
+    width: 30%;
+    height: 8%;
+    font-size: 30px;
+    font-style: bold;
+    color:white;
+    /* background-color: white; */
+    border: 3px solid white;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-top: 15px;
+    text-align: center;
+    padding-left:10px;
+    padding-right:10px;
+    cursor:pointer;
+    list-style-type: none;
+}
+
+.icon-update
+{
+    padding-left:15px;
+}
